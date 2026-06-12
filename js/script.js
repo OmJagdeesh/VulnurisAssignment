@@ -21,6 +21,7 @@ async function fetchUser() {
                 <h3>${user.name.first} ${user.name.last}</h3>
                 <p><strong>Email:</strong> ${user.email}</p>
                 <p><strong>Country:</strong> ${user.location.country}</p>
+                <p><strong>Gender:</strong> ${user.gender}</p>
             </div>
         `;
     } catch (error) {
